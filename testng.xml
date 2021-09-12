@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Test">
+<test name="Conexión a base de datos">
+    <classes>
+      <class name="TestNG.bd_connectTest"/>
+    </classes>
+  </test>
+  <test name="Datos Correctos">
+    <classes>
+      <class name="TestRunner.Runner_LC"/>
+    </classes>
+  </test>
+  <test name="Datos Incorrectos">
+    <classes>
+      <class name="TestRunner.Runner_LIC"/>
+    </classes>
+  </test>
+  <test name="Agendar Hora">
+    <classes>
+      <class name="TestRunner.Runner_AgendarHora"/>
+    </classes>
+  </test>
+</suite>

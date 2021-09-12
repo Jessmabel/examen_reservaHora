@@ -1,0 +1,80 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-09-12T19:13:12.622Z",
+        "line": 2,
+        "name": "Verificacion de ingreso de sesion",
+        "description": "",
+        "id": "realizacion-de-casos-ingresando-nombre-de-usuario-y-contrase�a;verificacion-de-ingreso-de-sesion",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1020013100,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "Abrir Chrome",
+            "match": {
+              "location": "StepDefinition.caso3.Steps_AgendarHora.abrir_Chrome()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2220106400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "ingresar Username \"jessica\" y Password \"1234\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"jessica\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"1234\"",
+                  "offset": 39
+                }
+              ],
+              "location": "StepDefinition.caso3.Steps_AgendarHora.ingresar_Username_y_Password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7041042700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "inicia sesion y agenda hora ingresando hora \"10:00\" y fehca \"12/12/2021\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"10:00\"",
+                  "offset": 44
+                },
+                {
+                  "val": "\"12/12/2021\"",
+                  "offset": 60
+                }
+              ],
+              "location": "StepDefinition.caso3.Steps_AgendarHora.inicia_sesion(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Realizacion de casos ingresando nombre de usuario y contrase�a",
+    "description": "",
+    "id": "realizacion-de-casos-ingresando-nombre-de-usuario-y-contrase�a",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/Features/agendarHora.feature",
+    "tags": []
+  }
+]
